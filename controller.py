@@ -20,7 +20,7 @@ class Controller(object):
         self._view._btnPlay.disabled = False
         self._view._txtIn.disabled = False
         self._view._lv.controls.append(
-            ft.Text("Indovina a quale numero sto pensando!"))
+            ft.Text("Indovina a quale numero sto pensando???"))
         self._view.update()
 
     def play(self,e):
